@@ -1,15 +1,15 @@
 {
 	armcom = {
-               seismicsignature = 1,
+               seismicsignature = 1,   --Makes coms revealed by anti-stealth
         },
-	armvulc = {
+	armvulc = {                   --Made it twice as expensive
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 29096,
-		energycost = 1504000,
+		energycost = 1504000,      --DOubled metalcost and energy cost
 		metalcost = 126000,
 		buildpic = "ARMVULC.DDS",
-		buildtime = 2800000,
+		buildtime = 2800000,          --Doubled buildtime
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 0 -45",
@@ -74,7 +74,7 @@
 				resurrectable = 0,
 			},
 		},
-		weapondefs = {
+		weapondefs = {                       --Made it twice as expensive and 50% more powerful
 			rflrpc = {
 				accuracy = 700,
 				areaofeffect = 224,
@@ -86,14 +86,14 @@
 				craterboost = 0.1,
 				cratermult = 0.1,
 				edgeeffectiveness = 0.9,
-				energypershot = 15000,
+				energypershot = 15000,          --50% higher energy cost
 				explosiongenerator = "custom:genericshellexplosion-huge",
 				gravityaffected = "true",
 				impulseboost = 0.5,
 				impulsefactor = 0.5,
 				name = "Rapid-fire long-range plasma cannon",
 				noselfdamage = true,
-				range = 8500,
+				range = 8500,           --50% higher range
 				reloadtime = 0.4,
 				rgbcolor = "1, 0.4, 0",
 				soundhit = "rflrpcexplo",
@@ -104,7 +104,7 @@
 				weapontimer = 14,
 				weapontype = "Cannon",
 				weaponvelocity = 1100,
-				damage = {
+				damage = {                -50% more damage
 					default = 1575,
 					shields = 825,
 					subs = 450,
@@ -112,7 +112,7 @@
 			},
 		},
         },
-	corbuzz = {
+	corbuzz = {                      --Calamity= Same changes as with ragnarok, double as expensive
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 29096,
@@ -222,7 +222,7 @@
 			},
 		},
 	},
-	corkorg = {
+	corkorg = {                          --Juggernaut -added tactical nuke as missile and made weapons more powerful but with higher reloadtime
                 canManualFire = true,
 		customparams = {
                         stockpileLimit = 2,
@@ -244,7 +244,7 @@
 				predictboost = 1,
 				projectiles = 14,
 				range = 600,
-				reloadtime = 4,
+				reloadtime = 4,          --Increased from 1.4
 				rgbcolor = "1 0.9 0.45",
 				size = 4,
 				sizeDecay = 0.044,
@@ -284,7 +284,7 @@
 				noselfdamage = true,
 				proximitypriority = -1,
 				range = 900,
-				reloadtime = 6,
+				reloadtime = 6,           --Increased from 4
 				rgbcolor = "1 0.8 0",
 				rgbcolor2 = "0.8 0 0",
 				soundhitdry = "",
